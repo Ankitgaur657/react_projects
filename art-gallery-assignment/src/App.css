@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e !important; /* Darkish grey background */
+    overflow-x: hidden;
+}
+
+.welcome-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.welcome-text { font-size: 5rem; font-weight: 800; color: #1e293b; animation: fadeIn 1s; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.main-title { color: #ffffff; }
+
+.table-wrapper {
+    background-color: #ffffff;
+    width: 95%;
+    max-width: 1400px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.aggregate-header { background: #f8fafc; color: #475569; }
+
+.custom-table .p-highlight { background: #f5f3ff !important; color: #4f46e5 !important; }
+
+.text-na { color: #94a3b8; font-style: italic; }
+
+.p-button-indigo { background-color: #6366f1 !important; border: none; }
