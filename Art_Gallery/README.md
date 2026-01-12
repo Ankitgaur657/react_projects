@@ -3,7 +3,7 @@
 A high-performance Art Gallery application built with **React**, **TypeScript**, and **Vite**. This project displays artwork data from the Art Institute of Chicago API using server-side pagination and persistent state management.
 
 # Live Demo
-[----]
+[https://apir.netlify.app/]
 
 # Tech Stack
 1. Framework: React 18 (Vite)
